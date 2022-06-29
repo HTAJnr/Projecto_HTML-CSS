@@ -213,7 +213,7 @@ a {
 /** Footer end**/
 
 /** Responsive start **/
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
     .container {
         width: 80%;
         height: 80%;
@@ -238,30 +238,13 @@ a {
         box-shadow: none;
         background-color: unset;
     }
-    .socialMedia .social p,
-    .socialMedia .medias p {
-        font-size: inherit;
-    }
-    .socialMedia .social img,
-    .socialMedia .medias img {
-        width: inherit;
-    }
-}
-
-@media (max-width: 920px) {
     .copyrigth {
         display: block;
         text-align: center;
     }
 }
 
-@media (max-width: 814px) {
-    .txt p {
-        font-size: 22px;
-    }
-}
-
-@media (max-width: 711px) {
+@media (max-width: 768px) {
     .txt p {
         font-size: 18px;
     }
@@ -274,19 +257,17 @@ a {
     .title {
         display: none;
     }
-    .copyrigth div p strong {
-        display: block;
-    }
-}
-@media (max-width: 503px) {
     .txt p {
         font-size: 16px;
     }
     .socialMedia .medias {
         width: 60%;
     }
+    .copyrigth div p strong {
+        display: block;
+    }
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .container {
         width: 60%;
     }
@@ -313,7 +294,7 @@ a {
         width: 50px;
     }
 }
-@media (max-width: 397px) {
+@media (max-width: 375px) {
     .socialMedia .social p, 
     .socialMedia .medias p {
         font-size: 11px;
@@ -326,7 +307,7 @@ a {
         font-size: 14px;
     }
 }
-@media (max-width: 330px) {
+@media (max-width: 320px) {
     .header .logo a img {
         width: 90px;
     }  
@@ -346,6 +327,5 @@ a {
     .socialMedia .medias p {
         font-size: 10px;
     }
-
 }
 /** Responsive end **/

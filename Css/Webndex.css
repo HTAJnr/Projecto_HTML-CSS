@@ -45,6 +45,7 @@ ul li.active a{
     max-width: 1200px;
     margin: auto;
 }
+
 .title{
     position: absolute;
     top: 50%;
@@ -74,7 +75,7 @@ ul li.active a{
 }
 .button{
     position: absolute;
-    top: 62%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -93,7 +94,7 @@ ul li.active a{
     color: white;
 }
 
-@media (max-width: 537px) {
+@media (max-width: 768px) {
     .button a {
         display: block;
         margin-top: 10px;
@@ -104,12 +105,11 @@ ul li.active a{
     }
 }
 
-@media (max-width: 480px) {
-
+@media (max-width: 425px) {
     .title i:nth-child(1),
     .title i:nth-child(2),
     .title i:nth-child(3) {
-        margin-left: 11px;
+        margin-left: 16px;
     }
 
     .title i:nth-child(4) {
@@ -117,16 +117,12 @@ ul li.active a{
     }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 375px) {
     .main {
         display: grid;
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-
-    .logo {
-        margin-left: 25%;
     }
 
     .button {

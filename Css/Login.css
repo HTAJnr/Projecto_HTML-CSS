@@ -10,7 +10,6 @@ body {
     font-family: 'Poppins',sans-serif,'Times New Roman', Times, serif;
     background-image: url(../Multimedia/Backgrounds/Back\(1\).jpg);
     background-repeat: no-repeat;
-    overflow: hidden;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -121,7 +120,7 @@ body {
 
 /* Responsividade */
 
-@media (max-width: 805px) {
+@media (max-width: 768px) {
     .container {
         width: 90%;
     }
